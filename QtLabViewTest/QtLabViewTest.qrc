@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/QtLabViewTest">
+        <file>image/pen1.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtLabViewTestClass</class>
+ <widget class="QMainWindow" name="QtLabViewTestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>954</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LabView操作测试</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QListWidget" name="lwNames">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>240</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="dragEnabled">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>字符串常量</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I32常量</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FLT32常量</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>字符串连接</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>数值加法</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="MObjectView" name="ovView">
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MObjectView</class>
+   <extends>QGraphicsView</extends>
+   <header>MLvView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="QtLabViewTest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

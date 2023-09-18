@@ -1,0 +1,18 @@
+[
+  {
+    "data-type": "int",
+    "color": 255,
+    "line-style": 0
+  },
+  {
+    "data-type": "float",
+    "color": 16716288,
+    "line-style": 1
+  },
+  {
+    "data-type": "string",
+    "color": 16764160,
+    "line-style": 2
+  }
+]
+

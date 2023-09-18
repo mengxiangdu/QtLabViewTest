@@ -1,0 +1,135 @@
+[
+  {
+    "name": "字符串常量",
+    "default-width": 32,
+    "default-height": 22,
+    "width-resizeable": true,
+    "height-resizeable": true,
+    "image": null,
+    "last-expandable": false,
+    "editable": true,
+    "init-text": "string",
+    "validate-expr": "^.*$",
+    "port": [
+      {
+        "name": "输出",
+        "align": 2,
+        "pos": 8,
+        "data-type": "string",
+        "is-output": true
+      }
+    ]
+  },
+  {
+    "name": "I32常量",
+    "default-width": 32,
+    "default-height": 22,
+    "width-resizeable": true,
+    "height-resizeable": false,
+    "image": null,
+    "last-expandable": false,
+    "editable": true,
+    "init-text": "0",
+    "validate-expr": "^[0-9]+$",
+    "port": [
+      {
+        "name": "输出",
+        "align": 2,
+        "pos": 8,
+        "data-type": "int",
+        "is-output": true
+      }
+    ]
+  },
+  {
+    "name": "FLT32常量",
+    "default-width": 32,
+    "default-height": 22,
+    "width-resizeable": true,
+    "height-resizeable": false,
+    "image": null,
+    "last-expandable": false,
+    "editable": true,
+    "init-text": "0.0",
+    "validate-expr": "^[0-9]+(\\.[0-9])*$",
+    "port": [
+      {
+        "name": "输出",
+        "align": 2,
+        "pos": 8,
+        "data-type": "float",
+        "is-output": true
+      }
+    ]
+  },
+  {
+    "name": "字符串连接",
+    "default-width": 32,
+    "default-height": 32,
+    "width-resizeable": false,
+    "height-resizeable": false,
+    "image": null,
+    "last-expandable": true,
+    "editable": false,
+    "init-text": null,
+    "validate-expr": null,
+    "port": [
+      {
+        "name": "管脚3",
+        "align": 2,
+        "pos": 10,
+        "data-type": "int",
+        "is-output": true
+      },
+      {
+        "name": "管脚1",
+        "align": 0,
+        "pos": 10,
+        "data-type": "string",
+        "is-output": false
+      },
+      {
+        "name": "管脚2",
+        "align": 0,
+        "pos": 20,
+        "data-type": "string",
+        "is-output": false
+      }
+    ]
+  },
+  {
+    "name": "数值加法",
+    "default-width": 32,
+    "default-height": 32,
+    "width-resizeable": false,
+    "height-resizeable": false,
+    "image": null,
+    "last-expandable": true,
+    "editable": false,
+    "init-text": null,
+    "validate-expr": null,
+    "port": [
+      {
+        "name": "管脚3",
+        "align": 2,
+        "pos": 10,
+        "data-type": "int",
+        "is-output": true
+      },
+      {
+        "name": "管脚1",
+        "align": 0,
+        "pos": 10,
+        "data-type": "int",
+        "is-output": false
+      },
+      {
+        "name": "管脚2",
+        "align": 0,
+        "pos": 20,
+        "data-type": "int",
+        "is-output": false
+      }
+    ]
+  }
+]
